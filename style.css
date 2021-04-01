@@ -1,12 +1,6 @@
 /* basic style */
-*{
+* {
   box-sizing: border-box;
-}
-
-body {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: lato, sans-serif;
 }
 
 ul {
@@ -21,6 +15,12 @@ li {
 input,
 button {
   outline: none;
+}
+
+.wrapper {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: "Lato", sans-serif;
 }
 
 .info {
@@ -68,7 +68,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
@@ -97,7 +97,7 @@ button {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 
